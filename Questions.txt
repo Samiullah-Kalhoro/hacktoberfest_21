@@ -46,5 +46,5 @@ Q14: What is Machine Code?
 A:
 
 Q15: Name some HTML tags
-A:
+A: <!DOCTYPE> , <html> , <head>, <title>, <body>, <p>, <br>, <footer>
 
