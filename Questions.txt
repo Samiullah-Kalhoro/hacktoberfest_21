@@ -37,7 +37,7 @@ Q11: What are variables?
 A:
 
 Q12: What are loops?
-A:
+A: Loops are sequence of instructions that is continually repeated until a certain condition is reached.
 
 Q13: Compiler vs Interpreter?
 A:
