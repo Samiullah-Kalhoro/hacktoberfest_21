@@ -28,7 +28,7 @@ A: HTML is a markup language,
 CSS is a styling language.
 
 Q9: What’s an algorithm?
-A:
+A: A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
 
 Q10: What is flowchart?
 A:
