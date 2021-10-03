@@ -9,7 +9,9 @@ Q2: How to add a comment in Python?
 A:  #this is how you add comments in Python.
 
 Q3: How to add a multi-line comment in python?
-A:
+A: """ This is how we can add
+        Multi-line comments 
+        in python"""
 
 Q4: print hello world in Python
 A: print("Hello World")
