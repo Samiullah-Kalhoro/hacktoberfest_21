@@ -36,7 +36,7 @@ Q10: What is flowchart?
 A:
 
 Q11: What are variables?
-A:
+A:variables are symbolic name for information, information contained by variables is represented by name of the variables.
 
 Q12: What are loops?
 A: Loops are sequence of instructions that is continually repeated until a certain condition is reached.
