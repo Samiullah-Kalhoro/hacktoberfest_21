@@ -45,7 +45,7 @@ Q13: Compiler vs Interpreter?
 A:
 
 Q14: What is Machine Code?
-A:
+A: Machine code (MC) is the executable instruction code provided by all running computer system programs and applications. MC language is a low-level code interpreted and converted from high-level source code and understood only by the machine.
 
 Q15: Name some HTML tags
 A: <!DOCTYPE> , <html> , <head>, <title>, <body>, <p>, <br>, <footer>
