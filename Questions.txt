@@ -42,7 +42,8 @@ Q12: What are loops?
 A: Loops are sequence of instructions that is continually repeated until a certain condition is reached.
 
 Q13: Compiler vs Interpreter?
-A:
+A: Interpreter translates just one statement of the program at a time into machine code.
+   Compiler scans the entire program and translates the whole of it into machine code at once.
 
 Q14: What is Machine Code?
 A: Machine code (MC) is the executable instruction code provided by all running computer system programs and applications. MC language is a low-level code interpreted and converted from high-level source code and understood only by the machine.
