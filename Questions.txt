@@ -33,7 +33,7 @@ Q9: What’s an algorithm?
 A: A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.
 
 Q10: What is flowchart?
-A:
+A: A flowchart is simply a graphical representation of steps. It shows steps in sequential order and is widely used in presenting the flow of algorithms, workflow or processes. Typically, a flowchart shows the steps as boxes of various kinds, and their order by connecting them with arrows.
 
 Q11: What are variables?
 A:variables are symbolic name for information, information contained by variables is represented by name of the variables.
