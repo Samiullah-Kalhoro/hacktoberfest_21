@@ -23,7 +23,7 @@ Q6: print hello world in javascript using console.log
 A: console.log(“hello world”);
 
 Q7: Add a readme in this repository for the steps to make a PR.
-A:
+A: Added
 
 Q8: What are HTML & CSS?
 A: HTML is a markup language,
