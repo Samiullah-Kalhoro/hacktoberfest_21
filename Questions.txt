@@ -50,3 +50,22 @@ A: Machine code (MC) is the executable instruction code provided by all running 
 Q15: Name some HTML tags
 A: <!DOCTYPE> , <html> , <head>, <title>, <body>, <p>, <br>, <footer>
 
+Q16: What are ternary operators? Write syntax.
+A:
+
+
+Q17: What are jumping statements? Name them.
+A:
+
+
+Q18: How many types of operator are there?Name them.
+A:
+
+
+Q19: Difference between / and // in python language.
+A:
+
+
+Q20: Input a number n using C .
+A:
+
