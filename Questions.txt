@@ -51,7 +51,9 @@ Q15: Name some HTML tags
 A: <!DOCTYPE> , <html> , <head>, <title>, <body>, <p>, <br>, <footer>
 
 Q16: What are ternary operators? Write syntax.
-A:
+A: The ternary operator is employed to execute code supported the results of a binary condition. It takes during a binary condition as input, which makes it almost like an 'if-else' control flow block. It also, however, returns a worth , behaving almost like a function.
+
+   Syntax: result = binaryCondition ? valueReturnedIfTrue : valueReturnedIfFalse;
 
 
 Q17: What are jumping statements? Name them.
