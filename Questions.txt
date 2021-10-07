@@ -57,7 +57,12 @@ A: The ternary operator is employed to execute code supported the results of a b
 
 
 Q17: What are jumping statements? Name them.
-A:
+A:Jump statements are used to alter the flow of loop when you want to skip a part of the loop or want to terminate the loop
+in other words  they transfer the program execution control to specific statements 
+jump statements are:
+1 goto
+2 continue
+3 return
 
 
 Q18: How many types of operator are there?Name them.
