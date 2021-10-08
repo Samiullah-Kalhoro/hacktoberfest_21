@@ -76,3 +76,18 @@ A:
 Q20: Input a number n using C .
 A:
 
+
+Q21: A macro can execute faster than a function.Is this statement true or false?
+A:
+
+
+Q22: The prototype of a function can be used to perform what on function
+A:
+
+
+Q23: Which library function can convert an integer/long to a string?
+A:
+
+
+
+
