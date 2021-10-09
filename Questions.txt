@@ -70,11 +70,12 @@ A:
 
 
 Q19: Difference between / and // in python language.
-A:
+A:/ is normal division. Divides the value on the left of / by the one on the right. Notice that division results in a floating-point value.
+  // is floor division. Divides and returns the integer value of the quotient. It neglects the digits after the decimal.
 
 
 Q20: Input a number n using C .
-A:
+A:scanf("%d",&n);
 
 
 Q21: A macro can execute faster than a function.Is this statement true or false?
