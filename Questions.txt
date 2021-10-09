@@ -66,12 +66,19 @@ jump statements are:
 
 
 Q18: How many types of operator are there?Name them.
-A:
-
+A:There are 8types of operator .
+1. Unary      . eg: expr++ , expr--
+2. Arithmetic . eg: * , / , % , + , -
+3. Shift      . eg: << , >> , >>>
+4. Relational . eg: == , !=
+5. Bitwise    . eg: & , ^ ,|
+6. Logical    . eg: && , || , ? :
+7. Ternary    . eg: ? :
+8. Assignment . eg:  = , += , -= , *= , /= , %= , &= , ^= , |= , <<= , >>= , >>>=
 
 Q19: Difference between / and // in python language.
-A:
-
+A: /  is Float Division eturns a floating point approximation of the result of a division. For eg : 1/3 = 0.333333333
+   // is Integer division returns the floor of the division.  For eg : 1//3 = 0
 
 Q20: Input a number n using C .
 A:
