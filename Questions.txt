@@ -87,8 +87,10 @@ A:
 
 
 Q23: Which library function can convert an integer/long to a string?
-A:
+A:In java,we can use:
+          Integer.toString(variable)
 
-
+Q24: What is "JVM" in java programming language?
+A: "JVM" stands for java virtual machine.Java virtual machine is an abstract machine and is a part of the JRE(Java Runtime Enviroment).It enables a computer to run java programs as well as programs written in any other languages.In other programming languages,the compiler produces a machine code for a particular system but in java JVM converts java byte code into machine language.
 
 
