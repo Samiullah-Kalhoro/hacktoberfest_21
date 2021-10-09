@@ -86,7 +86,8 @@ A:scanf("%d",&n);
 
 
 Q21: A macro can execute faster than a function.Is this statement true or false?
-A:
+A: TRUE, Because in function, much of time is used to take control from function call to called function and much of time is spent in this process,
+         Whereas in macro expression are directly replaced in the source code.
 
 
 Q22: The prototype of a function can be used to perform what on function
