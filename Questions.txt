@@ -91,7 +91,7 @@ A: TRUE, Because in function, much of time is used to take control from function
 
 
 Q22: The prototype of a function can be used to perform what on function
-A:
+A: It is used to perform type checking on function calls.
 
 
 Q23: Which library function can convert an integer/long to a string?
