@@ -101,3 +101,7 @@ Q24: What is "JVM" in java programming language?
 A: "JVM" stands for java virtual machine.Java virtual machine is an abstract machine and is a part of the JRE(Java Runtime Enviroment).It enables a computer to run java programs as well as programs written in any other languages.In other programming languages,the compiler produces a machine code for a particular system but in java JVM converts java byte code into machine language.
 
 
+Q25: Is Python the Future of Programming?
+Ans: Python will be the language of the future. Testers will have to upgrade their skills and learn these languages to tame the AI and ML tools.
+     The python language has managed to exceed other languages. 
+     Thus, it has an extensive set of prospects that can be taken care of, in upcoming years. There are various companies that are majorly dependent on python language developers to boost user experience. 
