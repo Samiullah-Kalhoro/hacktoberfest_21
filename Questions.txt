@@ -106,3 +106,59 @@ Q25: Is Python the Future of Programming?
 Ans: Python will be the language of the future. Testers will have to upgrade their skills and learn these languages to tame the AI and ML tools.
      The python language has managed to exceed other languages. 
      Thus, it has an extensive set of prospects that can be taken care of, in upcoming years. There are various companies that are majorly dependent on python language developers to boost user experience. 
+
+
+Q26 : Write pseudo codes for following: a.Binary Search , b.Bubble Sort, c. Pallindrome number.
+Ans : a. Binary Search 
+         int a[n],low,mid,high,key;   //a[n] is array of length n
+         low=0;
+         high=n-1;
+         while(low + high)/2;
+         {
+           mid=(low + high)/2;
+           if(a[mid]==key)            //key is element to search
+            {
+             printf("element %d is found at %d position:",key,mid+1);
+             exit(o);
+            }
+            else if(a[mid]>key)
+                 high=mid-1;
+            else
+                 low=mid+1;
+           }
+           print("UNSUCCESSFULL SEARCH\n");
+           return 0;
+          }
+          
+         
+
+          b.Bubble Sort
+            int i,j,a[n],temp;
+            for(i=0;i<n;i++)              // number of passes
+            {
+              for(j=0;j<n-i-1;j++)        //comparision
+              { 
+               if(a[j] > a[j+1])          //swap
+                {
+                 temp = a[j];
+                  a[j] = a[j+1];
+                  a[j+1] = temp;
+                 }
+               }
+              //the array is sorted
+              
+          
+         c. Pallindrome number
+            int n,rev=0,num,remainder;    // rev is for reversing the number 
+            scanf("%d",&num);             //enter the number
+            n=num;
+            while(num !=0)
+            {
+              remainder = num %10;
+              num=num/10;
+              rev= rev*10 + remainder;   //reversing the number
+             }
+              if(rev==n)                 //comparing the reversed number to the original number
+              //if rev is equal to n the number is pallindrome
+
+
