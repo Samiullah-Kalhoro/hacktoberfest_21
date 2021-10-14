@@ -1,3 +1,4 @@
+# This function finds index of smallest number in list
 def indexOfSmallestElement(lst):
     smallest_number = min(lst)
     index = lst.index(smallest_number)
