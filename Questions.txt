@@ -217,6 +217,14 @@ Ans: #include <stdio.h>
                                                                 "index %d",result);
                 return 0;
         }
+Q29: Writing a program to print multiples of 2 in Python?
+Ans: #Python program to print all multiples of 2 till 20
+
+     # Using range with three parameters
+
+     for i in range(2,21,2):
+         print(i, end =" ")
+     print()
 
 
 
