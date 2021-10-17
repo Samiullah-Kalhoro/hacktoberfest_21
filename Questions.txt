@@ -228,9 +228,9 @@ Ans: #Python program to print all multiples of 2 till 20
 
 // Adding practical test questions that nobody asked :p
 Q30: Python library to analyze data= Pandas 
-Q31: Weka full form
-Q32: Numpy full form:
-Q34: 3 types of ML:
+Q31: Weka full form: 
+Q32: Numpy full form: Numerical Python 
+Q34: 3 types of ML: 
 
 
 
