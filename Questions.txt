@@ -1,4 +1,4 @@
-In this Text file please ONLY answer the following questions to contribute to Hacktoberfest 2021 and to make a Pull Request.
+﻿In this Text file please ONLY answer the following questions to contribute to Hacktoberfest 2021 and to make a Pull Request.
 
 Note: These are very easy questions and for beginners in Open source community.
 
@@ -225,6 +225,12 @@ Ans: #Python program to print all multiples of 2 till 20
      for i in range(2,21,2):
          print(i, end =" ")
      print()
+
+// Adding practical test questions that nobody asked :p
+Q30: Python library to analyze data= Pandas 
+Q31: Weka full form
+Q32: Numpy full form:
+Q34: 3 types of ML:
 
 
 
