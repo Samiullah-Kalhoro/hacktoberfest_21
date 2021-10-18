@@ -231,6 +231,18 @@ Q30: Python library to analyze data= Pandas
 Q31: Weka full form: Waikato Environment for Knowledge Analysis
 Q32: Numpy full form: Numerical Python 
 Q34: 3 types of ML: Supervised, unsupervised and reinforcement ML
-
+Q35: How to open , read and write file in python (File Handling)? 
+Ans: for opening :
+     rd_file = open("file.txt")            #just copy paste the file address where it is located file->properties->location
+     
+     for reading : 
+     print(rd_file.read())
+     
+     for writing : 
+     rd_file = open("file.txt")
+     rd_file.write("Hey, I am enjoying this !! " , a)  #a,append to the file,  means not erase any data if file holds some 
+    
+     rd_file.close() #don't forget to close the file to perform other operations
+     
 
 
