@@ -245,6 +245,9 @@ Ans: for opening :
      rd_file.close() #don't forget to close the file to perform other operations
      
      # This will not only boost your conviction but also will be helpful to answer them quickly. The questions will mainly cover subjects like arrays, string, linked list, and so on.
+     For every beginner, it is easy to start reading programming books and gaining theoretical knowledge. But what’s the next?
+
+No one has become the programmer by reading the books. You should actually do the programming.
      
      Q #1) How can you reverse a string?
      
@@ -271,6 +274,7 @@ Ans: for opening :
     Q #10) Take the students Mark as User input and check the range of Mark. (Java) ?
     
        Programming is a skill best acquired by Practice and Example rather than from Books.
+       
      
 
 
