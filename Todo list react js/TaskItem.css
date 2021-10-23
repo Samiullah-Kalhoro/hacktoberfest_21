@@ -1,0 +1,33 @@
+.completed {
+  text-decoration: line-through;
+}
+.not-completed {
+  text-decoration: none;
+}
+.task {
+  cursor: pointer;
+}
+input,
+button {
+  border: solid 2px #c0c0c0;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button.edit {
+  background-color: #20a0b0;
+  color: antiquewhite;
+}
+button.save {
+  background-color: limegreen;
+  color: antiquewhite;
+}
+button.delete {
+  background-color: #e04040;
+  color: antiquewhite;
+}
+button.back {
+  background-color: darkgray;
+  color: antiquewhite;
+}

@@ -1,0 +1,19 @@
+.TodoList {
+  width: 100%;
+}
+.Actions {
+  text-align: right;
+}
+tr {
+  border-radius: 3px;
+  border: groove 2px rosybrown;
+}
+th {
+  text-align: left;
+}
+/* tbody tr:nth-child(even) {
+  background-color: darkorchid;
+}
+tbody tr:nth-child(odd) {
+  background-color: lightskyblue;
+} */
