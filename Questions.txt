@@ -244,5 +244,37 @@ Ans: for opening :
     
      rd_file.close() #don't forget to close the file to perform other operations
      
+     # This will not only boost your conviction but also will be helpful to answer them quickly. The questions will mainly cover subjects like arrays, string, linked list, and so on.
+     For every beginner, it is easy to start reading programming books and gaining theoretical knowledge. But what’s the next?
+
+No one has become the programmer by reading the books. You should actually do the programming.
+     
+     Q #1) How can you reverse a string?
+     
+     Q #2) What is a palindrome string?
+     
+     Q #3) How to calculate the number of vowels and consonants in a string?
+     
+     Q #4) Print all the elements in the Fibonacci number series.
+           This program can be implemented using a loop or recursion technique.
+           
+     Q #5) Write a program to calculate Circle Area using radius.
+     
+     Q #6) Write a program that will read a float type value from the keyboard and print the following output.
+1) the smallest integer which is not less than the number
+2) given number
+3) the largest integer which is not greater than the number
+
+    Q #7) Write a program to find the sum of all integers greater than 150 and less than 290 that are divisible by 3?
+    
+    Q #8) Write a program to convert given the number of days into months and days. (For the sake of simplicity, Assume that each month contains 30 days?
+    
+    Q #9) Print the Triangle as follow, using for loops. 1 2 3 4 5 6 7 8 9 10 … N?
+    
+    Q #10) Take the students Mark as User input and check the range of Mark. (Java) ?
+    
+       Programming is a skill best acquired by Practice and Example rather than from Books.
+       
+     
 
 
