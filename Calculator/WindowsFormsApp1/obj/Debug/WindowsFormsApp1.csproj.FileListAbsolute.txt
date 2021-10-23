@@ -1,0 +1,10 @@
+C:\Users\mzuba\OneDrive\Desktop\Semster - 6\Visual Programming\C-sharp Desktop Apps\Calculator\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\mzuba\OneDrive\Desktop\Semster - 6\Visual Programming\C-sharp Desktop Apps\Calculator\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\mzuba\OneDrive\Desktop\Semster - 6\Visual Programming\C-sharp Desktop Apps\Calculator\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\mzuba\OneDrive\Desktop\Semster - 6\Visual Programming\C-sharp Desktop Apps\Calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\mzuba\OneDrive\Desktop\Semster - 6\Visual Programming\C-sharp Desktop Apps\Calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\mzuba\OneDrive\Desktop\Semster - 6\Visual Programming\C-sharp Desktop Apps\Calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\mzuba\OneDrive\Desktop\Semster - 6\Visual Programming\C-sharp Desktop Apps\Calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\mzuba\OneDrive\Desktop\Semster - 6\Visual Programming\C-sharp Desktop Apps\Calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\mzuba\OneDrive\Desktop\Semster - 6\Visual Programming\C-sharp Desktop Apps\Calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\mzuba\OneDrive\Desktop\Semster - 6\Visual Programming\C-sharp Desktop Apps\Calculator\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
