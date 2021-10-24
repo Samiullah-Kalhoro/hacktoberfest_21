@@ -251,14 +251,75 @@ No one has become the programmer by reading the books. You should actually do th
      
      Q #1) How can you reverse a string?
      
+          #include <stdio.h>  
+          #include <string.h>  
+          int main()  
+          {  
+             char str[40];
+             printf (" \n Enter a string to be reversed: ");  
+             scanf ("%s", str);  
+      
+             printf (" \n After the reverse of a string: %s ", strrev(str));  
+             return 0;  
+         }  
+     
      Q #2) What is a palindrome string?
      
+     - A string is said to be palindrome if it reads the same backward as forward.
+     
      Q #3) How to calculate the number of vowels and consonants in a string?
+     
+#include <string.h>
+ 
+int main()
+{
+    char s[1000];  
+    int i,vowels=0,consonants=0;
+ 
+    printf("Enter  the string : ");
+    gets(s);
+     
+    for(i=0;s[i];i++)  
+    {
+    	if((s[i]>=65 && s[i]<=90)|| (s[i]>=97 && s[i]<=122))
+    	{
+		
+            if(s[i]=='a'|| s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u'||s[i]=='A'||s[i]=='E'||s[i]=='I'||s[i]=='O' ||s[i]=='U')
+		      vowels++;
+            else
+             consonants++;
+        }
+ 
+ 	}
+ 	
+     
+    printf("vowels = %d\n",vowels);
+    printf("consonants = %d\n",consonants);
+    
+    return 0;
+}
+     
      
      Q #4) Print all the elements in the Fibonacci number series.
            This program can be implemented using a loop or recursion technique.
            
      Q #5) Write a program to calculate Circle Area using radius.
+     
+#include <stdio.h>
+int main()
+{
+   int circle_radius;
+   float PI_VALUE=3.14, circle_area, circle_circumf;
+   printf("\nEnter radius of circle: ");
+   
+   scanf("%d",&circle_radius);
+
+  
+   circle_area = PI_VALUE * circle_radius * circle_radius;
+   printf("\nArea of circle is: %f",circle_area);
+   
+   return(0);
+}
      
      Q #6) Write a program that will read a float type value from the keyboard and print the following output.
 1) the smallest integer which is not less than the number
