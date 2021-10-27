@@ -327,6 +327,11 @@ int main()
 3) the largest integer which is not greater than the number
 
     Q #7) Write a program to find the sum of all integers greater than 150 and less than 290 that are divisible by 3?
+
+sum = 0
+for i in range(151, 289):
+    if i % 3 == 0:
+        sum += i
     
     Q #8) Write a program to convert given the number of days into months and days. (For the sake of simplicity, Assume that each month contains 30 days?
     
