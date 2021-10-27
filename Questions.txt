@@ -336,8 +336,9 @@ int main()
     
        Programming is a skill best acquired by Practice and Example rather than from Books.
        
-     
- Q36: Write a code to print daimond pattern in any langauge.
+       
+------------------------------------------------------------------
+Q36: Write a code to print daimond pattern in any langauge.
  
  Ans: 
  //	Code to print diamond pattern in C langauge
