@@ -337,8 +337,46 @@ int main()
        Programming is a skill best acquired by Practice and Example rather than from Books.
        
      
+ Q36: Write a code to print daimond pattern in any langauge.
+ 
+ Ans: 
+ //	Code to print diamond pattern in C langauge
+ 
+		#include <stdio.h>
+		int main()
+		{
+		  int n, c, k;
 
- // I am commiting for first time 
+		  printf("Enter number of rows\n");
+		  scanf("%d", &n);
+
+		  for (k = 1; k <= n; k++)
+		  {
+		    for (c = 1; c <= n-k; c++)
+		      printf(" ");
+
+		    for (c = 1; c <= 2*k-1; c++)
+		      printf("*");
+
+		    printf("\n");
+		  }
+
+		  for (k = 1; k <= n - 1; k++)
+		  {
+		    for (c = 1; c <= k; c++)
+		      printf(" ");
+
+		    for (c = 1 ; c <= 2*(n-k)-1; c++)
+		      printf("*");
+
+		    printf("\n");
+		  }
+
+		  return 0;
+		}
+		
+------------------------------EOC---------------------------		
+		 // I am commiting for first time 
   
 System.out.println(" I am commiting for first time")
 
