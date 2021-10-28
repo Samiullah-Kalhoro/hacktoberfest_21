@@ -335,6 +335,16 @@ for i in range(151, 289):
     
     Q #8) Write a program to convert given the number of days into months and days. (For the sake of simplicity, Assume that each month contains 30 days?
     
+    #include <stdio.h>
+    int main(){
+    int n;
+    printf("enter the number of days");
+    scanf("%d",&n);
+    printf("no. of months is %d\n",n/30);
+    printf("no. of days is %d",n%30);
+    return 0;
+    }
+    
     Q #9) Print the Triangle as follow, using for loops. 1 2 3 4 5 6 7 8 9 10 … N?
     
     Q #10) Take the students Mark as User input and check the range of Mark. (Java) ?
