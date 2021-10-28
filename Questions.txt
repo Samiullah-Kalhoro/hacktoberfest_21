@@ -326,6 +326,17 @@ int main()
 2) given number
 3) the largest integer which is not greater than the number
 
+#include <stdio.h>
+int main()
+{
+float n;
+printf("enter the float value\n");
+scanf("%f",&n);
+printf("the smallest integer which is not less than the number is %d\n",(int)(n)+1);
+printf("given number is %f",n);
+printf("the largest integer which is not greater than the number is %d",(int)(n));
+}
+
     Q #7) Write a program to find the sum of all integers greater than 150 and less than 290 that are divisible by 3?
 
 sum = 0
