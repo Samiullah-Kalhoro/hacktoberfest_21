@@ -1,0 +1,36 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package recursionpractice;
+import java.util.Scanner;
+/**
+ *
+ * @author HP
+ */
+public class RecursionPractice {
+    public static int factorial(int n){
+        if(n==1){
+            return 1;
+        }
+        else {
+            return n*factorial(n-1);
+        }
+    }
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int n;
+        
+        System.out.println("Enter a number: ");
+        n = input.nextInt();
+        System.out.println(factorial(n));
+        }
+        // TODO code application logic here
+    }
+    
+
