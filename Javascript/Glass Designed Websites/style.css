@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+    font-size: 3rem;
+}
+
+h2, p {
+    color: #6ba1e7;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+h3, p {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, rgb(151, 205, 236), rgb(161, 240, 229));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    background: white;
+    min-height: 90vh;
+    width: 60%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 2em;
+    z-index: 2;
+    backdrop-filter: blur(2rem);
+    display: flex;
+}
+
+.circle1, .circle2 {
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgba(255, 255, 255, 0.3));
+    height: 10em;
+    width: 10em;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle1 {
+    top: 5%;
+    right: 15%;
+}
+
+.circle2 {
+    bottom: 5%;
+    left: 15%;
+}
+
+.dashboard {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* I used this because for using the align-items & justify-content property
+    because without the display:flex these will not work*/
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, .8), rgba(255, 255, 255, 0.3));
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.games {
+    flex: 2;
+}
+
+.link {
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0rem 2rem;
+}
+
+.pro {
+    background: linear-gradient(to right top, rgb(151, 205, 236), rgb(161, 240, 229));
+    padding: 1rem;
+    border-radius: 2rem;
+    color: white;
+    position: relative;
+    width: 70%;
+}
+
+.pro h2 {
+    color: white;
+    width: 40%;
+    font-weight: 500;
+}
+
+.pro img {
+    position: absolute;
+    top: -10%;
+    right: 10%;
+}
+
+/* Games Section */
+
+.status {
+    margin-bottom: 5rem;
+}
+
+.status input {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    background: linear-gradient(to left top,
+     rgba(255, 255, 255, .8),
+      rgba(255, 255, 255, 0.5));
+    border-radius: 2rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+}
+.percentage
+{
+    font-weight: bold;
+    background: linear-gradient(to right top, #65dfc9, #65dbc9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dp
+{
+    border-radius: 10rem;
+}
