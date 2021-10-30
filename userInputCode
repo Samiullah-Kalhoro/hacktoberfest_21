@@ -1,0 +1,22 @@
+package userinputpractice;
+
+import java.util.Scanner;
+
+public class UserInputPractice {
+    public static void main(String[] args) {
+        String[] names;
+        names = new String[5];
+        int[] nums = {0, 1, 2, 3, 4};
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the names:");
+        for(int i=0; i<names.length; i++){
+            System.out.print("Enter " + ++i + " name: ");
+            --i;
+            names[i]= input.nextLine();
+        }
+        System.out.println("Following are the names you input: ");
+        for(String print: names){
+            System.out.println(print);
+        }
+    }
+}
