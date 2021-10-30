@@ -1,0 +1,26 @@
+The Lucas numbers or Lucas series are an integer sequence named after the mathematician François Édouard Anatole Lucas (1842–91), 
+who studied both that sequence and the closely related Fibonacci numbers.
+Similar to the Fibonacci numbers, each Lucas number is defined to be the sum of its two immediately previous terms.
+However, unlike the Fibonacci numbers, which start as 1, 2, ...,1,2,..., Lucas numbers start as 2, 1, ...2,1,...
+
+
+#include <stdio.h>
+#include <conio.h>
+
+  void main()
+  {
+  	  int n0,n1,n2;
+  	  int thirdterm,c;
+  	  n0=0;
+  	  n1=2;
+  	  n2=1;
+      printf("%d %d %d",n0,n1,n2);
+     // printf()
+    for(c=0;c<10;c++)
+      {
+      	thirdterm=n2+n1;
+      	n1=n2;
+      	n2=thirdterm;
+  	  printf(" %d ",thirdterm); 
+      }
+  }
