@@ -18,6 +18,8 @@ def play(word):
     print(word_completion)
     print("\n")
     while not guessed and tries > 0:
+        if guessed_letters or guessed_words: 
+            print("wrong tries:", ' '.join([l for l in guessed_letters if l not in word]), ' '.join([w for w in guessed_words]))
         guess = input("guess a letter or word: ").upper()
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
@@ -52,7 +54,7 @@ def play(word):
         print(word_completion)
         print("\n")
     if guessed:
-        print("Good Job, you guessed the word!")
+        print("Good Job, you guessed the word! ^_^")
     else:
         print("I'm sorry, but you ran out of tries. The word was " + word + ". Maybe next time!")
 
