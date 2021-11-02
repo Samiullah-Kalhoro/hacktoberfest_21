@@ -407,3 +407,10 @@ Q36: Write a code to print daimond pattern in any langauge.
   
 System.out.println(" I am commiting for first time")
 
+Q37: What is a database ?
+
+Q38 : What’s the difference between HTML, HTML5, CSS and CSS3 ?
+
+Q39 : What is the difference between front-end and back-end development ?
+
+Q40 : What is an API ?
