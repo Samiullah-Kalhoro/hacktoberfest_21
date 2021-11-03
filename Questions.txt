@@ -108,8 +108,8 @@ Ans: Python will be the language of the future. Testers will have to upgrade the
      Thus, it has an extensive set of prospects that can be taken care of, in upcoming years. There are various companies that are majorly dependent on python language developers to boost user experience. 
 
 
-Q26 : Write pseudo codes for following: a.Binary Search , b.Bubble Sort, c. Pallindrome number.
-Ans : a. Binary Search 
+Q26: Write pseudo codes for following: a.Binary Search , b.Bubble Sort, c. Pallindrome number.
+Ans: a. Binary Search 
          int a[n],low,mid,high,key;   //a[n] is array of length n
          low=0;
          high=n-1;
@@ -160,8 +160,8 @@ Ans : a. Binary Search
              }
               if(rev==n)                 //comparing the reversed number to the original number
               //if rev is equal to n the number is pallindrome
-Q27 : How to print the A-ABA-ABCBA-ABCDCBA Pattern in Python?
-Ans :   row = int(input("Enter The Number of Row: "))
+Q27: How to print the A-ABA-ABCBA-ABCDCBA Pattern in Python?
+Ans:   row = int(input("Enter The Number of Row: "))
         alphabet = 65
         i = 0
         while(i < row):
@@ -407,10 +407,10 @@ Q36: Write a code to print daimond pattern in any langauge.
   
 System.out.println(" I am commiting for first time")
 
-Q37: What is a database ?
+Q37: What is a database?
 
-Q38 : What’s the difference between HTML, HTML5, CSS and CSS3 ?
+Q38: What’s the difference between HTML, HTML5, CSS and CSS3?
 
-Q39 : What is the difference between front-end and back-end development ?
+Q39: What is the difference between front-end and back-end development?
 
-Q40 : What is an API ?
+Q40: What is an API?
