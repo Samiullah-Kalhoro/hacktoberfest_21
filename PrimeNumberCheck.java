@@ -24,7 +24,8 @@ public class PrimeNumberCheck {
         Scanner obj = new Scanner(System.in);
         n = obj.nextInt();
         long j;
-        for(j=2; j<n; j++){
+        for(j=2; j*j<n; j++)//faster execution time 
+        {
         if(n%j==0)
             isPrime = false;
     }
