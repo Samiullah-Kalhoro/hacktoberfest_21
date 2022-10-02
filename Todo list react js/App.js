@@ -1,10 +1,10 @@
-import Main from "./Main";
-function App() {
-  return (
-    <div>
-      <Main />
-    </div>
-  );
+class App extends Component{
+     render(){
+       return(
+         <div className="App">
+          <TodoApp/>
+         </div>
+       );
+     }
 }
-
 export default App;
