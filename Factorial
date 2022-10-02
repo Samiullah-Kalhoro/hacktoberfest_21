@@ -1,17 +1,11 @@
-#include<iostream>
-using namespace std;
+class Factorial{  
+ public static void main(String args[]){  
+  int i,fact=1;  
+  int number=5;//It is the number to calculate factorial    
+  for(i=1;i<=number;i++){    
+      fact=fact*i;    
+  }    
+  System.out.println("Factorial of "+number+" is: "+fact);    
+ }  
+}  
 
-int factorial(int n)
-{
-    if(n > 1)
-        return n * factorial(n - 1);
-    else
-        return 1;
-}
-
-int main()
-{
-    int n=5;
-    cout << " " << n << " = " << factorial(n);
-    return 0;
-}
