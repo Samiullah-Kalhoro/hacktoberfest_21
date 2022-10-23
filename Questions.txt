@@ -408,6 +408,8 @@ Q36: Write a code to print daimond pattern in any langauge.
 System.out.println(" I am commiting for first time")
 
 Q37: What is a database?
+Ans:
+A database is just an organized collection of data stored and accessed electronically. Small databases can be stored on a file system, while large databases are hosted on computer clusters or cloud storage.
 
 Q38: What’s the difference between HTML, HTML5, CSS and CSS3?
 
