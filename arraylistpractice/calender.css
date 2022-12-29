@@ -1,0 +1,139 @@
+#form{
+    display: flex; 
+    justify-content: center;
+}
+#day{
+    display: flex; 
+    justify-content: center;
+    font-weight: 500;
+    font-family: sans-serif;
+    height: 50%;
+    border: 3px solid black;
+    color: aqua;
+    background:rgb(74, 76, 69);
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+
+
+    
+
+}
+h1{
+    color: rgb(255, 193, 127);
+}
+#child{
+    background:rgb(101, 101, 100);
+    height: auto;
+    width: 410px;
+    padding: .8em;
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+    display: block;
+    /* text-shadow: 3px 3px .5px rgb(209, 223, 154); */
+    animation-name: moveit ,rotate;
+    animation-duration: 3s,4s;
+    /* animation-iteration-count: ; */
+    animation-direction:alternate-reverse,reverse;
+
+}
+#submit{
+    height: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+
+
+}
+#submit:hover{
+    transition: background 2s;
+    
+     background: rgb(114, 241, 105);
+     /*  box-shadow: 2px 2px .4; */
+     border: none
+}
+@keyframes moveit {
+    from{left: 0;}
+    to {left: 50%;}
+    
+    
+}
+.box {
+    background-color: rgb(226, 167, 57);
+    border-radius: 10px;
+    width: 200px;
+    height: 90px;
+    margin-top: 50px;
+    
+    justify-content: center;
+  }
+  
+  .box:hover {
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-direction: reverse,alternate-reverse;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+  }
+  body{
+    background:linear-gradient(135deg,#f97794,#623AA2);
+    height: 100%;
+  }
+  #ff{
+    background: radial-gradient(#F97794,#533653);
+  }
+
+  table{
+    height: 300px;
+    width: 280px;
+    background: white;
+    border-spacing: 1px;
+    /* border-collapse: collapse; */
+    border: 2px;
+    margin-top: 0px;
+    
+  }
+  td{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+  }
+  #hh{
+    height: 20px;
+  }
+  #headd{
+    height: 5px;
+    width: auto;
+    color: rgb(79, 85, 72);
+    border: 1px #533653 solid ;
+    position:absolute;
+    left: 10px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px 2px;
+  }
+  #font{
+    font-weight: 500;
+    font-family: sans-serif;
+
+  }
+  .boxx{
+
+    height: 80px;
+    width: 180px;
+    font-size: xx-large  ;
+    border-radius: 10px 10px 10px 10px;
+  }
+  #h{
+    font-size: 100px;
+    font-weight: 800;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }

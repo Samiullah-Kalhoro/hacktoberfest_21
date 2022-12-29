@@ -1,3 +1,4 @@
+
 class Factorial{  
  public static void main(String args[]){  
   int i,fact=1;  
@@ -8,4 +9,21 @@ class Factorial{
   System.out.println("Factorial of "+number+" is: "+fact);    
  }  
 }  
+
+
+import java.util.*;
+class Factorial{
+	public static int fact(int n){
+		if(n==0 || n==1)
+			return 1;
+		else
+			return n*fact(n-1);
+	}
+	public static void main(String args[]){
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter a number: ");
+		int n=sc.nextInt();
+		System.out.println("The factorial is: "+fact(n));
+	}
+}
 
