@@ -1,17 +1,15 @@
-#include<iostream>
-using namespace std;
-
-int factorial(int n)
-{
-    if(n > 1)
-        return n * factorial(n - 1);
-    else
-        return 1;
-}
-
-int main()
-{
-    int n=5;
-    cout << " " << n << " = " << factorial(n);
-    return 0;
+import java.util.*;
+class Factorial{
+	public static int fact(int n){
+		if(n==0 || n==1)
+			return 1;
+		else
+			return n*fact(n-1);
+	}
+	public static void main(String args[]){
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter a number: ");
+		int n=sc.nextInt();
+		System.out.println("The factorial is: "+fact(n));
+	}
 }
