@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:bisque;
+    background-image: url(bg_design.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.btn-green {
+    background-color: greenyellow;
+    color: rgb(23, 26, 23);
+}
+
+.card-body {
+    background-color: hsl(86, 79%, 54%);
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.form-control {
+    background-color: antiquewhite;
+    color: chocolate;
+}
+
+.card-title {
+    color: blueviolet;
+    margin: .5rem;
+}
+
+.card-text {
+    color:darkblue;
+    margin: .5rem;
+}
+
+.btn {
+    margin: .5rem;
+}
+
