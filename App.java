@@ -6,41 +6,44 @@ import java.util.Random;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("=====WELCOME TO SNAKE LADDER PROBLEM=====");
-        System.out.println();
-        System.out.println("1. Play with friends");
-        System.out.println("2. Play with computer");
-        System.out.println();
-        System.out.println("q. To exit");
-        System.out.println();
-        System.out.print("Enter leading option character to choose: ");
-        char query=br.readLine().charAt(0);
-        Match match=new Match();
-        switch (query) {
-            case '1':   System.out.println();
-                        System.out.print("Total players: ");
-                        int n=Integer.parseInt(br.readLine());
-                        for (int i=0; i<n; i++) {
-                            System.out.print("Enter player "+(i+1)+" name: ");
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+            System.out.println("=====WELCOME TO SNAKE LADDER PROBLEM=====");
+            System.out.println();
+            System.out.println("1. Play with friends");
+            System.out.println("2. Play with computer");
+            System.out.println();
+            System.out.println("q. To exit");
+            System.out.println();
+            System.out.print("Enter leading option character to choose: ");
+            char query=br.readLine().charAt(0);
+            Match match=new Match();
+            switch (query) {
+                case '1':   System.out.println();
+                            System.out.print("Total players: ");
+                            int n=Integer.parseInt(br.readLine());
+                            for (int i=0; i<n; i++) {
+                                System.out.print("Enter player "+(i+1)+" name: ");
+                                match.addPlayer(br.readLine());
+                            }
+                            match.start();
+                            break;
+                case '2':   System.out.println();
+                            System.out.print("Player name: ");
                             match.addPlayer(br.readLine());
-                        }
-                        match.start();
-                        break;
-            case '2':   System.out.println();
-                        System.out.print("Player name: ");
-                        match.addPlayer(br.readLine());
-                        match.addPlayer("Computer");
-                        match.start();
-                        break;
-            case 'q':   System.out.println("Exiting...");
-                        break;
-            default:    System.out.println("Invalid option");
-                        System.out.println("Exiting...");
-                        break;
+                            match.addPlayer("Computer");
+                            match.start();
+                            break;
+                case 'q':   System.out.println("Exiting...");
+                            break;
+                default:    System.out.println("Invalid option");
+                            System.out.println("Exiting...");
+                            break;
         }
-        System.out.println("Solved by CRYP73R");
-    }
+        System.out.println("Solved by Sohail-cs");
+    } catch (Exception e) {
+            e.printStackTrace();
+        }
+} 
 }
 
 class Match {
