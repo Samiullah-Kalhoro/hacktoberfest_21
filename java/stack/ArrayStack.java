@@ -11,6 +11,17 @@ import java.util.NoSuchElementException;
  *
  * @author Zohaib Hassan Soomro
  */
+public LinkedStack toLinkedStack() {
+    if (this.isEmpty()) {
+        return null;
+    }
+    LinkedStack stack = new LinkedStack();
+    for (int i = 0; i < this.size; i++) {
+        stack.push(array[i]);
+    }
+    return stack;
+}
+
 public class ArrayStack implements Stack {
 
 private int size;
