@@ -40,7 +40,7 @@ static void printArray(int arr[])
 
 public static void main(String args[])
  {
-  int arr[] = {101, 37, 68, 29, 11, 5};
+  int arr[] = {6,124,123,23,23};
   int n = arr.length;
   QuickSort ob = new QuickSort();
   ob.sort(arr, 0, n-1);
